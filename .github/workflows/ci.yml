@@ -35,4 +35,4 @@ jobs:
      uses: actions/upload-artifact@v4
      with:
      name: model-artifacts-${{ matrix.python }}-${{github.run_id}}
-     path: artfacts/
+     path: artfacts
